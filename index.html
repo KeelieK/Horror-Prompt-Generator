@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Horror Story Prompts </title>
-  <style>
-  body {
-    background-color: black;
-    text-align: center;
-    color: red;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    min-height: 100%;
-    position: absolute;
-  }
-  h1 {
-    width: 82%;
-    max-width: 100px;
-    font-weight: normal;
-    font-size: 42px;
-  }
-  button {
-    font-size: 18px;
-    padding: 15px 20px;
-    margin-top: 40px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: 2px 2px 12px rgba(rgb(184, 3, 3), green, blue, alpha);
-    transition: 0.3s;
-  } 
-  </style>
-</head>
+  <head>
+    <title>Horror Story Prompts</title>
+    <style>
+      body {
+        background-color: black;
+        text-align: center;
+        color: red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100%;
+        position: absolute;
+      }
+      h1 {
+        width: 82%;
+        max-width: 100px;
+        font-weight: normal;
+        font-size: 42px;
+      }
+      button {
+        font-size: 18px;
+        padding: 15px 20px;
+        margin-top: 40px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        box-shadow: 2px 2px 12px rgba(rgb(184, 3, 3), green, blue, alpha);
+        transition: 0.3s;
+      }
+    </style>
+    <script src="prompts.js"></script>
+  </head>
   <body>
     <h1 id="promptholder">What will you create??</h1>
-  <button onclick="getPrompt()">
-  New Prompt
-  </button>
-  <script src="prompts.js"></script> 
-</body>
+    <button onclick="getPrompt()">New Prompt</button>
+  </body>
 </html>

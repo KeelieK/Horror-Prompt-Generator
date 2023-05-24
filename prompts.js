@@ -32,13 +32,12 @@ let promptsArray = [
   "Goddess/God that protects the bog",
   "Cupid has gone crazy"
 ];
-
 //get random prompt from array
 function getPrompt(){
   //get random prompt from array
 let randomPrompt = promptsArray[Math.floor(Math.random() * promptsArray.length)];
 //create a prompt holder element variable from html
-let promptHolder = document.getElementById(promptholder);
+let promptHolder = document.getElementById('promptholder');
 promptHolder.innerHTML=randomPrompt;
 //log random prompt to the console
 console.log(randomPrompt);
